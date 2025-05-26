@@ -1,0 +1,32 @@
+.div-example {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid steelblue;
+}
+
+p {
+    font-family: sans-serif;
+    color: #333;
+}
+
+
+.flex-container {
+    display: flex; /* This makes the div a flex container */
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 150px; /* To show alignment options */
+    justify-content: space-around; /* Distributes items with space around them */
+    align-items: center; /* Vertically centers items */
+}
+
+.flex-item {
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
